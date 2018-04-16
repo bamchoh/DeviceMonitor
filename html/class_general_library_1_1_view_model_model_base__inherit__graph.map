@@ -1,0 +1,13 @@
+<map id="GeneralLibrary.ViewModelModelBase" name="GeneralLibrary.ViewModelModelBase">
+<area shape="rect" id="node4" href="$class_device_monitor_1_1_lib_1_1_sql_server2008_r_c.html" title="SQL Server 2008 RC のデータベースと接続する為のクラス " alt="" coords="5,328,357,741"/>
+<area shape="rect" id="node5" href="$class_device_monitor_1_1_model_1_1_monitor_model.html" title="DBとの接続状態を示すクラス " alt="" coords="382,448,673,621"/>
+<area shape="rect" id="node6" href="$class_device_monitor_1_1_view_model_1_1_connector_view_model.html" title="モニタリング状態を管理するViewModel " alt="" coords="698,428,960,641"/>
+<area shape="rect" id="node7" href="$class_device_monitor_1_1_view_model_1_1_dev_mon_view_model.html" title="デバイスモニタに関係するViewModelやDriver情報を管理するクラス " alt="" coords="985,438,1247,631"/>
+<area shape="rect" id="node8" href="$class_device_monitor_1_1_view_model_1_1_monitor_view_model.html" title="デバイスの値を読み出すViewとデバイスの値を管理するModelを管理するクラス " alt="" coords="1271,408,1563,661"/>
+<area shape="rect" id="node9" href="$class_mitsubishi_q_c_p_u_direct_driver_1_1_view_model_1_1_mitsubishi_q_c_p_u_direct_view_model.html" title="{MitsubishiQCPUDirectDriver.\lViewModel.MitsubishiQCPUDirectViewModel\n||}" alt="" coords="1587,478,1999,591"/>
+<area shape="rect" id="node10" href="$class_modbus_t_c_p_master_driver_1_1_model_1_1_count.html" title="デバイス読み出し数を表すクラス " alt="" coords="2023,418,2325,651"/>
+<area shape="rect" id="node11" href="$class_modbus_t_c_p_master_driver_1_1_model_1_1_device_address.html" title="デバイスアドレスを格納するクラス " alt="" coords="2350,378,2652,691"/>
+<area shape="rect" id="node12" href="$class_modbus_t_c_p_master_driver_1_1_view_model_1_1_modbus_t_c_p_master_view_model.html" title="MODBUS TCP Master の デバイスアドレス関係の View と Model を管理するクラス " alt="" coords="2677,378,3040,691"/>
+<area shape="rect" id="node2" href="$class_i_notify_property_changed.html" title="{INotifyPropertyChanged\n||}" alt="" coords="1183,5,1425,99"/>
+<area shape="rect" id="node3" href="$class_i_data_error_info.html" title="{IDataErrorInfo\n||}" alt="" coords="1449,5,1612,99"/>
+</map>

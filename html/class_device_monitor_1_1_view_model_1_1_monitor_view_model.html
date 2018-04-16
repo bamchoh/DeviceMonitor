@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>MODBUS TCP Device Monitor: クラス DeviceMonitor.ViewModel.MonitorViewModel</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MODBUS TCP Device Monitor
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.3.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="pages.html"><span>関連ページ</span></a></li>
+      <li><a href="namespaces.html"><span>パッケージ</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="inherits.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>プロパティ</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>イベント</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>ページ</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_device_monitor.html">DeviceMonitor</a></li><li class="navelem"><a class="el" href="namespace_device_monitor_1_1_view_model.html">ViewModel</a></li><li class="navelem"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html">MonitorViewModel</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public メソッド</a> &#124;
+<a href="#properties">プロパティ</a> &#124;
+<a href="#pri-methods">Private メソッド</a> &#124;
+<a href="#pri-attribs">Private 変数</a> &#124;
+<a href="class_device_monitor_1_1_view_model_1_1_monitor_view_model-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス DeviceMonitor.ViewModel.MonitorViewModel</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+DeviceMonitor.ViewModel.MonitorViewModelに対する継承グラフ</div>
+<div class="dyncontent">
+<div class="center"><img src="class_device_monitor_1_1_view_model_1_1_monitor_view_model__inherit__graph.png" border="0" usemap="#_device_monitor_8_view_model_8_monitor_view_model_inherit__map" alt="Inheritance graph"/></div>
+<map name="_device_monitor_8_view_model_8_monitor_view_model_inherit__map" id="_device_monitor_8_view_model_8_monitor_view_model_inherit__map">
+<area shape="rect" id="node2" href="class_general_library_1_1_view_model_model_base.html" title="ViewModel, Model の基底クラス " alt="" coords="15,5,287,139"/></map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr class="memitem:a34ec1c40ee49814a0f5a21921f15b5c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html#a34ec1c40ee49814a0f5a21921f15b5c9">MonitorViewModel</a> (<a class="el" href="interface_common_driver_1_1_model_1_1_i_driver_model.html">CommonDriver.Model.IDriverModel</a> driver)</td></tr>
+<tr class="separator:a34ec1c40ee49814a0f5a21921f15b5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a00d1294727269b7bb9335a9d98f36e2e"><td class="memItemLeft" align="right" valign="top">System.Windows.Visibility&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html#a00d1294727269b7bb9335a9d98f36e2e">ConnectState</a><code> [get]</code></td></tr>
+<tr class="separator:a00d1294727269b7bb9335a9d98f36e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9138f16d5354f9da83f667731061730"><td class="memItemLeft" align="right" valign="top">DataView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html#ab9138f16d5354f9da83f667731061730">DataSource</a><code> [get]</code></td></tr>
+<tr class="separator:ab9138f16d5354f9da83f667731061730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_general_library_1_1_view_model_model_base"><td colspan="2" onclick="javascript:toggleInherit('properties_class_general_library_1_1_view_model_model_base')"><img src="closed.png" alt="-"/>&#160;プロパティ inherited from <a class="el" href="class_general_library_1_1_view_model_model_base.html">GeneralLibrary.ViewModelModelBase</a></td></tr>
+<tr class="memitem:a1b6ee1bda4d100fc60d2af237baf759f inherit properties_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#a1b6ee1bda4d100fc60d2af237baf759f">Error</a><code> [get]</code></td></tr>
+<tr class="separator:a1b6ee1bda4d100fc60d2af237baf759f inherit properties_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91849f0611e941cda564da76b46f6984 inherit properties_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#a91849f0611e941cda564da76b46f6984">this[string columnName]</a><code> [get]</code></td></tr>
+<tr class="separator:a91849f0611e941cda564da76b46f6984 inherit properties_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private メソッド</h2></td></tr>
+<tr class="memitem:af79637edb1ed7ffd6fbcb467d93093c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html#af79637edb1ed7ffd6fbcb467d93093c9">ModelPropertyChanged</a> (object sender, PropertyChangedEventArgs e)</td></tr>
+<tr class="separator:af79637edb1ed7ffd6fbcb467d93093c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae439744fdbfa90c264c1b687ec8c9533"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html#ae439744fdbfa90c264c1b687ec8c9533">DispatcherTimer_Tick</a> (object sender, EventArgs e)</td></tr>
+<tr class="separator:ae439744fdbfa90c264c1b687ec8c9533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a008558a91dd17827c93a5b0bacc36535"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html#a008558a91dd17827c93a5b0bacc36535">DataBasePropertyChanged</a> (object sender, PropertyChangedEventArgs e)</td></tr>
+<tr class="separator:a008558a91dd17827c93a5b0bacc36535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 変数</h2></td></tr>
+<tr class="memitem:abe0f0b921089430dd86f0039e86c1d10"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html">MonitorModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html#abe0f0b921089430dd86f0039e86c1d10">_model</a></td></tr>
+<tr class="separator:abe0f0b921089430dd86f0039e86c1d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c153130989f462ded1eee70658ecbe"><td class="memItemLeft" align="right" valign="top">readonly DispatcherTimer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html#a26c153130989f462ded1eee70658ecbe">_dispatcherTimer</a></td></tr>
+<tr class="separator:a26c153130989f462ded1eee70658ecbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b4f5afe608b8b3c8a01897ae64c3b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_device_monitor_1_1_lib_1_1_sql_server2008_r_c.html">Lib.SqlServer2008RC</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html#a31b4f5afe608b8b3c8a01897ae64c3b5">_database</a> = <a class="el" href="class_device_monitor_1_1_lib_1_1_sql_server2008_r_c.html#afb5954bbe6241fbc5156a488999e803e">Lib.SqlServer2008RC.Instance</a></td></tr>
+<tr class="separator:a31b4f5afe608b8b3c8a01897ae64c3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_class_general_library_1_1_view_model_model_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_general_library_1_1_view_model_model_base')"><img src="closed.png" alt="-"/>&#160;Protected メソッド inherited from <a class="el" href="class_general_library_1_1_view_model_model_base.html">GeneralLibrary.ViewModelModelBase</a></td></tr>
+<tr class="memitem:ad566c986d57fb37cf69a08df40e69b8f inherit pro_methods_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#ad566c986d57fb37cf69a08df40e69b8f">OnPropertyChanged</a> (string name)</td></tr>
+<tr class="separator:ad566c986d57fb37cf69a08df40e69b8f inherit pro_methods_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header events_class_general_library_1_1_view_model_model_base"><td colspan="2" onclick="javascript:toggleInherit('events_class_general_library_1_1_view_model_model_base')"><img src="closed.png" alt="-"/>&#160;イベント inherited from <a class="el" href="class_general_library_1_1_view_model_model_base.html">GeneralLibrary.ViewModelModelBase</a></td></tr>
+<tr class="memitem:a787c401d48f6ad62dee283da7b4deec2 inherit events_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">PropertyChangedEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#a787c401d48f6ad62dee283da7b4deec2">PropertyChanged</a></td></tr>
+<tr class="separator:a787c401d48f6ad62dee283da7b4deec2 inherit events_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>デバイスの値を読み出すViewとデバイスの値を管理するModelを管理するクラス </p>
+</div><h2 class="groupheader">コンストラクタとデストラクタ</h2>
+<a class="anchor" id="a34ec1c40ee49814a0f5a21921f15b5c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DeviceMonitor.ViewModel.MonitorViewModel.MonitorViewModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_common_driver_1_1_model_1_1_i_driver_model.html">CommonDriver.Model.IDriverModel</a>&#160;</td>
+          <td class="paramname"><em>driver</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+<p>モデルの初期化と、タイマの初期化を行う </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">driver</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド</h2>
+<a class="anchor" id="a008558a91dd17827c93a5b0bacc36535"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeviceMonitor.ViewModel.MonitorViewModel.DataBasePropertyChanged </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropertyChangedEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>データベースの状態が変更された場合に発生するイベント このイベントを起点にデータソースを更新する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td></td></tr>
+    <tr><td class="paramname">e</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae439744fdbfa90c264c1b687ec8c9533"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeviceMonitor.ViewModel.MonitorViewModel.DispatcherTimer_Tick </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(現在未使用)一定周期でデータベースの状態を更新するタイマ </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td></td></tr>
+    <tr><td class="paramname">e</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af79637edb1ed7ffd6fbcb467d93093c9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeviceMonitor.ViewModel.MonitorViewModel.ModelPropertyChanged </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropertyChangedEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接続状態が変更されたときに発生するイベント このイベントを起点にDBにアクセスするかどうかを決定する モニタリング状態が「モニタリング中」ならDBのテーブルを初期化して ドライバ情報をもとにレコードを追加する。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td></td></tr>
+    <tr><td class="paramname">e</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">変数</h2>
+<a class="anchor" id="a31b4f5afe608b8b3c8a01897ae64c3b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_device_monitor_1_1_lib_1_1_sql_server2008_r_c.html">Lib.SqlServer2008RC</a> DeviceMonitor.ViewModel.MonitorViewModel._database = <a class="el" href="class_device_monitor_1_1_lib_1_1_sql_server2008_r_c.html#afb5954bbe6241fbc5156a488999e803e">Lib.SqlServer2008RC.Instance</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>DBアクセス用のインスタンス </p>
+
+</div>
+</div>
+<a class="anchor" id="a26c153130989f462ded1eee70658ecbe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DispatcherTimer DeviceMonitor.ViewModel.MonitorViewModel._dispatcherTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(現在未使用)一定周期でDBを更新する用のタイマ </p>
+
+</div>
+</div>
+<a class="anchor" id="abe0f0b921089430dd86f0039e86c1d10"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html">MonitorModel</a> DeviceMonitor.ViewModel.MonitorViewModel._model</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在の接続状態を示すクラス </p>
+
+</div>
+</div>
+<h2 class="groupheader">プロパティ</h2>
+<a class="anchor" id="a00d1294727269b7bb9335a9d98f36e2e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">System.Windows.Visibility DeviceMonitor.ViewModel.MonitorViewModel.ConnectState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接続状態を表すプロパティ </p>
+
+</div>
+</div>
+<a class="anchor" id="ab9138f16d5354f9da83f667731061730"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataView DeviceMonitor.ViewModel.MonitorViewModel.DataSource</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>DataGrid に表示する用のデータソースを取得する為のプロパティ </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>C:/Users/y_yoshihiko/Documents/Git/DeviceMonitor/DeviceMonitor/ViewModel/<a class="el" href="_monitor_view_model_8cs.html">MonitorViewModel.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+MODBUS TCP Device Monitorに対してTue Jul 9 2013 00:49:57に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.3.1
+</small></address>
+</body>
+</html>

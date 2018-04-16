@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>MODBUS TCP Device Monitor: クラス DeviceMonitor.Model.MonitorModel</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MODBUS TCP Device Monitor
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.3.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="pages.html"><span>関連ページ</span></a></li>
+      <li><a href="namespaces.html"><span>パッケージ</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="inherits.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>プロパティ</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>イベント</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>ページ</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_device_monitor.html">DeviceMonitor</a></li><li class="navelem"><a class="el" href="namespace_device_monitor_1_1_model.html">Model</a></li><li class="navelem"><a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html">MonitorModel</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public メソッド</a> &#124;
+<a href="#pub-static-attribs">Static Public 変数</a> &#124;
+<a href="#pro-methods">Protected メソッド</a> &#124;
+<a href="#properties">プロパティ</a> &#124;
+<a href="#pri-attribs">Private 変数</a> &#124;
+<a href="class_device_monitor_1_1_model_1_1_monitor_model-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス DeviceMonitor.Model.MonitorModel</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+DeviceMonitor.Model.MonitorModelに対する継承グラフ</div>
+<div class="dyncontent">
+<div class="center"><img src="class_device_monitor_1_1_model_1_1_monitor_model__inherit__graph.png" border="0" usemap="#_device_monitor_8_model_8_monitor_model_inherit__map" alt="Inheritance graph"/></div>
+<map name="_device_monitor_8_model_8_monitor_model_inherit__map" id="_device_monitor_8_model_8_monitor_model_inherit__map">
+<area shape="rect" id="node2" href="class_general_library_1_1_view_model_model_base.html" title="ViewModel, Model の基底クラス " alt="" coords="15,5,287,139"/></map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr class="memitem:afa4af6a31cae5f3a931754ef0cab40b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html#afa4af6a31cae5f3a931754ef0cab40b2">StartMonitoring</a> ()</td></tr>
+<tr class="separator:afa4af6a31cae5f3a931754ef0cab40b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public 変数</h2></td></tr>
+<tr class="memitem:a1af6f65d1be2bacde2588f38c2479062"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html">MonitorModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html#a1af6f65d1be2bacde2588f38c2479062">Instance</a> = new <a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html">MonitorModel</a>()</td></tr>
+<tr class="separator:a1af6f65d1be2bacde2588f38c2479062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected メソッド</h2></td></tr>
+<tr class="memitem:a68ee36e410bc7776d3360e066f624d88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html#a68ee36e410bc7776d3360e066f624d88">MonitorModel</a> ()</td></tr>
+<tr class="separator:a68ee36e410bc7776d3360e066f624d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_general_library_1_1_view_model_model_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_general_library_1_1_view_model_model_base')"><img src="closed.png" alt="-"/>&#160;Protected メソッド inherited from <a class="el" href="class_general_library_1_1_view_model_model_base.html">GeneralLibrary.ViewModelModelBase</a></td></tr>
+<tr class="memitem:ad566c986d57fb37cf69a08df40e69b8f inherit pro_methods_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#ad566c986d57fb37cf69a08df40e69b8f">OnPropertyChanged</a> (string name)</td></tr>
+<tr class="separator:ad566c986d57fb37cf69a08df40e69b8f inherit pro_methods_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:ad4e3aedcb70e494051feff096ec7f0ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html#ad4e3aedcb70e494051feff096ec7f0ad">State</a><code> [get, set]</code></td></tr>
+<tr class="separator:ad4e3aedcb70e494051feff096ec7f0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_general_library_1_1_view_model_model_base"><td colspan="2" onclick="javascript:toggleInherit('properties_class_general_library_1_1_view_model_model_base')"><img src="closed.png" alt="-"/>&#160;プロパティ inherited from <a class="el" href="class_general_library_1_1_view_model_model_base.html">GeneralLibrary.ViewModelModelBase</a></td></tr>
+<tr class="memitem:a1b6ee1bda4d100fc60d2af237baf759f inherit properties_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#a1b6ee1bda4d100fc60d2af237baf759f">Error</a><code> [get]</code></td></tr>
+<tr class="separator:a1b6ee1bda4d100fc60d2af237baf759f inherit properties_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91849f0611e941cda564da76b46f6984 inherit properties_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#a91849f0611e941cda564da76b46f6984">this[string columnName]</a><code> [get]</code></td></tr>
+<tr class="separator:a91849f0611e941cda564da76b46f6984 inherit properties_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 変数</h2></td></tr>
+<tr class="memitem:a35ccd7858547f39f45b71c9ea67d8d49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_device_monitor_1_1_model_1_1_monitoring_state.html">MonitoringState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html#a35ccd7858547f39f45b71c9ea67d8d49">_monitoringState</a></td></tr>
+<tr class="separator:a35ccd7858547f39f45b71c9ea67d8d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header events_class_general_library_1_1_view_model_model_base"><td colspan="2" onclick="javascript:toggleInherit('events_class_general_library_1_1_view_model_model_base')"><img src="closed.png" alt="-"/>&#160;イベント inherited from <a class="el" href="class_general_library_1_1_view_model_model_base.html">GeneralLibrary.ViewModelModelBase</a></td></tr>
+<tr class="memitem:a787c401d48f6ad62dee283da7b4deec2 inherit events_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">PropertyChangedEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#a787c401d48f6ad62dee283da7b4deec2">PropertyChanged</a></td></tr>
+<tr class="separator:a787c401d48f6ad62dee283da7b4deec2 inherit events_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>DBとの接続状態を示すクラス </p>
+</div><h2 class="groupheader">コンストラクタとデストラクタ</h2>
+<a class="anchor" id="a68ee36e410bc7776d3360e066f624d88"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DeviceMonitor.Model.MonitorModel.MonitorModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド</h2>
+<a class="anchor" id="afa4af6a31cae5f3a931754ef0cab40b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeviceMonitor.Model.MonitorModel.StartMonitoring </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>モニタリングの状態をトグルする Monitoring なら Stopに Stop なら Monitoring にする </p>
+
+</div>
+</div>
+<h2 class="groupheader">変数</h2>
+<a class="anchor" id="a35ccd7858547f39f45b71c9ea67d8d49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_device_monitor_1_1_model_1_1_monitoring_state.html">MonitoringState</a> DeviceMonitor.Model.MonitorModel._monitoringState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>モニタリングの状態を表す内部プロパティ </p>
+
+</div>
+</div>
+<a class="anchor" id="a1af6f65d1be2bacde2588f38c2479062"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html">MonitorModel</a> DeviceMonitor.Model.MonitorModel.Instance = new <a class="el" href="class_device_monitor_1_1_model_1_1_monitor_model.html">MonitorModel</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シングルトン </p>
+
+</div>
+</div>
+<h2 class="groupheader">プロパティ</h2>
+<a class="anchor" id="ad4e3aedcb70e494051feff096ec7f0ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeviceMonitor.Model.MonitorModel.State</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>モニタリングの現在の状態を表すプロパティ </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>C:/Users/y_yoshihiko/Documents/Git/DeviceMonitor/DeviceMonitor/Model/<a class="el" href="_connector_model_8cs.html">ConnectorModel.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+MODBUS TCP Device Monitorに対してTue Jul 9 2013 00:49:57に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.3.1
+</small></address>
+</body>
+</html>

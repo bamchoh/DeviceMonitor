@@ -1,0 +1,16 @@
+﻿<ResourceDictionary
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:vm="clr-namespace:DeviceMonitor.ViewModel"
+  xmlns:vw="clr-namespace:DeviceMonitor.View"
+  >
+    
+    <DataTemplate DataType="{x:Type vm:ConnectorViewModel}">
+        <vw:ConnectorView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:MonitorViewModel}">
+        <vw:MonitorView />
+    </DataTemplate>
+
+</ResourceDictionary>

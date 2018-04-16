@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>MODBUS TCP Device Monitor: クラス DeviceMonitor.ViewModel.DevMonViewModel</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MODBUS TCP Device Monitor
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.3.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="pages.html"><span>関連ページ</span></a></li>
+      <li><a href="namespaces.html"><span>パッケージ</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="inherits.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>プロパティ</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>イベント</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>ページ</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_device_monitor.html">DeviceMonitor</a></li><li class="navelem"><a class="el" href="namespace_device_monitor_1_1_view_model.html">ViewModel</a></li><li class="navelem"><a class="el" href="class_device_monitor_1_1_view_model_1_1_dev_mon_view_model.html">DevMonViewModel</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public メソッド</a> &#124;
+<a href="#properties">プロパティ</a> &#124;
+<a href="class_device_monitor_1_1_view_model_1_1_dev_mon_view_model-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス DeviceMonitor.ViewModel.DevMonViewModel</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+DeviceMonitor.ViewModel.DevMonViewModelに対する継承グラフ</div>
+<div class="dyncontent">
+<div class="center"><img src="class_device_monitor_1_1_view_model_1_1_dev_mon_view_model__inherit__graph.png" border="0" usemap="#_device_monitor_8_view_model_8_dev_mon_view_model_inherit__map" alt="Inheritance graph"/></div>
+<map name="_device_monitor_8_view_model_8_dev_mon_view_model_inherit__map" id="_device_monitor_8_view_model_8_dev_mon_view_model_inherit__map">
+<area shape="rect" id="node2" href="class_general_library_1_1_view_model_model_base.html" title="ViewModel, Model の基底クラス " alt="" coords="5,5,277,139"/></map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr class="memitem:a54b781adc37fffb04aab7b8292306ba4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_dev_mon_view_model.html#a54b781adc37fffb04aab7b8292306ba4">DevMonViewModel</a> ()</td></tr>
+<tr class="separator:a54b781adc37fffb04aab7b8292306ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a2af76fc11182fe99355bf88fbab371d3"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_device_monitor_1_1_model_1_1_driver_dll_info.html">Model.DriverDllInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_dev_mon_view_model.html#a2af76fc11182fe99355bf88fbab371d3">DriverList</a><code> [get]</code></td></tr>
+<tr class="separator:a2af76fc11182fe99355bf88fbab371d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a3add09f5e588fa16abca894da17e36"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_dev_mon_view_model.html#a8a3add09f5e588fa16abca894da17e36">SelectedIndex</a><code> [get, set]</code></td></tr>
+<tr class="separator:a8a3add09f5e588fa16abca894da17e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb38096addef8a4a3c38fd57f8af3ae5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_common_driver_1_1_view_model_1_1_i_driver_view_model.html">CommonDriver.ViewModel.IDriverViewModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_dev_mon_view_model.html#aeb38096addef8a4a3c38fd57f8af3ae5">DriverViewModel</a><code> [get]</code></td></tr>
+<tr class="separator:aeb38096addef8a4a3c38fd57f8af3ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1451f823be077bd459a15a3ee45fd423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_device_monitor_1_1_view_model_1_1_connector_view_model.html">ViewModel.ConnectorViewModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_dev_mon_view_model.html#a1451f823be077bd459a15a3ee45fd423">ConnectorViewModel</a><code> [get]</code></td></tr>
+<tr class="separator:a1451f823be077bd459a15a3ee45fd423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedbef469d2be0d3301f972f6d8530ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html">ViewModel.MonitorViewModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_device_monitor_1_1_view_model_1_1_dev_mon_view_model.html#aedbef469d2be0d3301f972f6d8530ef3">MonitorViewModel</a><code> [get]</code></td></tr>
+<tr class="separator:aedbef469d2be0d3301f972f6d8530ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_general_library_1_1_view_model_model_base"><td colspan="2" onclick="javascript:toggleInherit('properties_class_general_library_1_1_view_model_model_base')"><img src="closed.png" alt="-"/>&#160;プロパティ inherited from <a class="el" href="class_general_library_1_1_view_model_model_base.html">GeneralLibrary.ViewModelModelBase</a></td></tr>
+<tr class="memitem:a1b6ee1bda4d100fc60d2af237baf759f inherit properties_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#a1b6ee1bda4d100fc60d2af237baf759f">Error</a><code> [get]</code></td></tr>
+<tr class="separator:a1b6ee1bda4d100fc60d2af237baf759f inherit properties_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91849f0611e941cda564da76b46f6984 inherit properties_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#a91849f0611e941cda564da76b46f6984">this[string columnName]</a><code> [get]</code></td></tr>
+<tr class="separator:a91849f0611e941cda564da76b46f6984 inherit properties_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_class_general_library_1_1_view_model_model_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_general_library_1_1_view_model_model_base')"><img src="closed.png" alt="-"/>&#160;Protected メソッド inherited from <a class="el" href="class_general_library_1_1_view_model_model_base.html">GeneralLibrary.ViewModelModelBase</a></td></tr>
+<tr class="memitem:ad566c986d57fb37cf69a08df40e69b8f inherit pro_methods_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#ad566c986d57fb37cf69a08df40e69b8f">OnPropertyChanged</a> (string name)</td></tr>
+<tr class="separator:ad566c986d57fb37cf69a08df40e69b8f inherit pro_methods_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header events_class_general_library_1_1_view_model_model_base"><td colspan="2" onclick="javascript:toggleInherit('events_class_general_library_1_1_view_model_model_base')"><img src="closed.png" alt="-"/>&#160;イベント inherited from <a class="el" href="class_general_library_1_1_view_model_model_base.html">GeneralLibrary.ViewModelModelBase</a></td></tr>
+<tr class="memitem:a787c401d48f6ad62dee283da7b4deec2 inherit events_class_general_library_1_1_view_model_model_base"><td class="memItemLeft" align="right" valign="top">PropertyChangedEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_general_library_1_1_view_model_model_base.html#a787c401d48f6ad62dee283da7b4deec2">PropertyChanged</a></td></tr>
+<tr class="separator:a787c401d48f6ad62dee283da7b4deec2 inherit events_class_general_library_1_1_view_model_model_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>デバイスモニタに関係するViewModelやDriver情報を管理するクラス </p>
+</div><h2 class="groupheader">コンストラクタとデストラクタ</h2>
+<a class="anchor" id="a54b781adc37fffb04aab7b8292306ba4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DeviceMonitor.ViewModel.DevMonViewModel.DevMonViewModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+<p>シーケンス図(クリックで拡大)<br/>
+  <a href="devicemonitor_viewmodel_devmonviewmodel_sequence.png"><img src="devicemonitor_viewmodel_devmonviewmodel_sequence.png" width=25% /></a> 
+</div>
+</div>
+<h2 class="groupheader">プロパティ</h2>
+<a class="anchor" id="a1451f823be077bd459a15a3ee45fd423"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_device_monitor_1_1_view_model_1_1_connector_view_model.html">ViewModel.ConnectorViewModel</a> DeviceMonitor.ViewModel.DevMonViewModel.ConnectorViewModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>モニタリング状態を管理するクラスを取得するプロパティ </p>
+
+</div>
+</div>
+<a class="anchor" id="a2af76fc11182fe99355bf88fbab371d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_device_monitor_1_1_model_1_1_driver_dll_info.html">Model.DriverDllInfo</a>&gt; DeviceMonitor.ViewModel.DevMonViewModel.DriverList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドライバ情報のリストを取得するプロパティ </p>
+
+</div>
+</div>
+<a class="anchor" id="aeb38096addef8a4a3c38fd57f8af3ae5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_common_driver_1_1_view_model_1_1_i_driver_view_model.html">CommonDriver.ViewModel.IDriverViewModel</a> DeviceMonitor.ViewModel.DevMonViewModel.DriverViewModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドライバ情報を管理するクラスを取得するプロパティ </p>
+
+</div>
+</div>
+<a class="anchor" id="aedbef469d2be0d3301f972f6d8530ef3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_device_monitor_1_1_view_model_1_1_monitor_view_model.html">ViewModel.MonitorViewModel</a> DeviceMonitor.ViewModel.DevMonViewModel.MonitorViewModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デバイスの値をモニタリングする為の情報を管理するクラスを取得するプロパティ </p>
+
+</div>
+</div>
+<a class="anchor" id="a8a3add09f5e588fa16abca894da17e36"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DeviceMonitor.ViewModel.DevMonViewModel.SelectedIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在選択しているドライバ情報リストのインデックスを取得/設定するプロパティ </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>C:/Users/y_yoshihiko/Documents/Git/DeviceMonitor/DeviceMonitor/ViewModel/<a class="el" href="_dev_mon_window_8cs.html">DevMonWindow.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+MODBUS TCP Device Monitorに対してTue Jul 9 2013 00:49:57に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.3.1
+</small></address>
+</body>
+</html>
